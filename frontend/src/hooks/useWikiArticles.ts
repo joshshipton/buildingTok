@@ -31,7 +31,7 @@ const shuffleArray = (array: any[]) => {
 export function useWikiArticles() {
   const [articles, setArticles] = useState<WikiArticle[]>([]);
   const [loading, setLoading] = useState(false);
-  const [allFetchedArticles, setAllFetchedArticles] = useState<WikiArticle[]>([]);
+  //const [allFetchedArticles, setAllFetchedArticles] = useState<WikiArticle[]>([]);
   const [currentIndex, setCurrentIndex] = useState(0);
   const BASE_API = "https://en.wikipedia.org/w/api.php?origin=*";
 
